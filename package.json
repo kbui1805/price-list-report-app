@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Help create price list from various sell items with multiple price points",
   "main": "create-price-list.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "csvtojson": "^2.0.10",
+    "date-and-time": "^2.4.1",
     "json2csv": "^5.0.7"
   }
 }
